@@ -1,0 +1,6 @@
+def paper("text"):
+    result=""
+    for char in text:
+        result+=char*3
+    return result
+paper("hello")
